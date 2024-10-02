@@ -25,7 +25,7 @@ export class TasksComponent {
     {
       id: 't2',
       userId: 'u3',
-      titre: 'Build first prototype',
+      titre: 'Faire premier pototype',
       description:
         'Construire un premier prototype du site de boutique en ligne',
       date: '31-05-2025',
@@ -33,7 +33,7 @@ export class TasksComponent {
     {
       id: 't3',
       userId: 'u3',
-      titre: 'Prepare issue template',
+      titre: 'Preparer une solution pour le projet',
       description:
         'Préparer et décrire un modèle de problème qui aidera à la gestion de projet',
       date: '15-06-2025',
@@ -50,5 +50,9 @@ export class TasksComponent {
 
   onStartAddTask() {
     this.isAddingTask = true;
+  }
+
+  onCancelAddTask() {
+    this.isAddingTask = false;
   }
 }
