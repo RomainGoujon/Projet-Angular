@@ -3,5 +3,11 @@ export type Task = {
   userId: string;
   titre: string;
   description: string;
-  date: string;
+  dueDate: string;
+};
+
+export type NewTaskData = {
+  title: string;
+  summary: string;
+  dueDate: string;
 };
